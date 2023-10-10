@@ -4,6 +4,23 @@
  */
 
 
+ body {
+  font-family:Verdana, Tahoma, sans-serif;
+  background-color: greenyellow;
+  color: #242121;
+  font-size: 1.5rem;
+  line-height: 1.6;
+
+  min-width: 100%;
+  min-height: 100%;
+}
+
+header img{
+  width:30%;
+  display: block;
+  margin-top: 10rem;
+}
+
  header {
   padding: 1.5rem;
   background-color: rgb(174, 255, 0);
@@ -25,37 +42,37 @@
   }
 
   header h2{
+  margin-bottom:20rem;
   margin-left: 2rem;  
   }
-  
+
   header nav {
-  display: flex;
-  align-items: normal;
-  }
-  
-  header nav ul {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-  }
-  
-  header nav ul li {
-  margin-left: 3rem;   
-  }
-  
-  header nav ul li a {
-  color:orangered;
-  text-decoration: solid;
-  }
-  
-  header nav ul li a:hover {
-  color: blue;
-  text-decoration: underline; 
-  
-  }
-  
+    display: flex;
+    align-items: normal;
+    }
+    header nav ul {
+      list-style: none;
+      margin: 2rem;
+      padding: 4rem;
+    }
+    
+    header nav ul li {
+    margin-left: 3rem;   
+    }
+    
+    header nav ul li a {
+    color:rgb(10, 4, 4);
+    text-decoration: solid;
+    }
+    
+    header nav ul li a:hover {
+    color: rgb(55, 255, 0);
+    text-decoration: underline; 
+    
+    }
+
   .sr-only {
-    position: absolute;
+    position:fixed;
     width: 1px;
     height: 1px;
     padding: 0;
@@ -66,13 +83,23 @@
     border-width: 0;
   }
   
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #11ff00;
-    color: #242121;
-    font-size: 1.5rem;
-    line-height: 1.6;
-  
-    min-width: 100%;
-    min-height: 100%;
+  table, th, td {
+    border: 3px solid green;
+    border-collapse: collapse;
+    background-color: black;
+    color:#11ff00
   }
+  
+  caption{
+  color:black 
+  }
+
+  footer{
+  padding:2rem;
+  background-color: rgb(1, 241, 69);
+  color: #242121;
+  font-size: 1.5rem;
+  line-height: 1.6;
+
+  }
+  
