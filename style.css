@@ -10,15 +10,17 @@
   color: #242121;
   font-size: 1.5rem;
   line-height: 1.6;
-
+  
   min-width: 100%;
   min-height: 100%;
 }
 
 header img{
-  width:30%;
-  display: block;
-  margin-top: 10rem;
+  width:10%;
+  height:10%;
+  margin-top:6rem;
+  float:right;
+  display:inline-flex;
 }
 
  header {
@@ -27,13 +29,17 @@ header img{
   color:black;
   
   display:flex;
-  justify-content: space-evenly;
+  justify-content:space-around;
   align-items: center;
   }
   
-  .logo-heading-wrapper {
+  .MrTrendyHead {
   display:flex;
-  align-items: normal;
+  background-color: rgb(22, 234, 89);
+  flex-direction:row-reverse;
+  align-items:start;
+  justify-content: center;
+  gap: 50px
   }
   
   h1{
@@ -42,22 +48,17 @@ header img{
   }
 
   header h2{
-  margin-bottom:20rem;
-  margin-left: 2rem;  
+  margin-left: 1rem; 
+  margin-right: 40rem;
   }
-
-  header nav {
-    display: flex;
-    align-items: normal;
-    }
+  
     header nav ul {
       list-style: none;
-      margin: 2rem;
-      padding: 4rem;
+      margin-left: 10rem;
     }
     
     header nav ul li {
-    margin-left: 3rem;   
+    margin-left: 1rem;   
     }
     
     header nav ul li a {
@@ -66,7 +67,7 @@ header img{
     }
     
     header nav ul li a:hover {
-    color: rgb(55, 255, 0);
+    color: rgb(255, 0, 0);
     text-decoration: underline; 
     
     }
@@ -96,10 +97,32 @@ header img{
 
   footer{
   padding:2rem;
-  background-color: rgb(1, 241, 69);
+  background-color: rgb(24, 244, 0);
   color: #242121;
   font-size: 1.5rem;
   line-height: 1.6;
-
   }
-  
+
+  footer img{
+  padding:6rem;
+  width: 60%;
+  }
+   footer nav ul {
+      list-style: none;
+      margin: 2rem;
+      padding: 4rem;
+    }
+    
+    footer nav ul li {
+    margin-left: 6rem;   
+    }
+    
+    footer nav ul li a {
+    color:rgb(10, 4, 4);
+    text-decoration: solid;
+    }
+    
+    footer nav ul li a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline; 
+    }
