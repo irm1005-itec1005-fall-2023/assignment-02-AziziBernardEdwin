@@ -36,9 +36,10 @@ header img{
   .MrTrendyHead {
   display:flex;
   background-color: rgb(22, 234, 89);
-  flex-direction:row-reverse;
+  flex-direction: row-reverse;
   align-items:start;
   justify-content: center;
+  flex-basis: 200px;
   gap: 50px
   }
   
