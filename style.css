@@ -3,6 +3,16 @@
  * CSS FILE
  */
 
+ header h2{
+display:flex;
+justify-content: space-around;
+align-items: stretch;
+background-color: black;
+color:#11ff00;
+
+
+
+ }
 
  body {
   font-family:Verdana, Tahoma, sans-serif;
@@ -18,7 +28,8 @@
 header img{
   width:20%;
   height:20%;
-  margin-left: 2rem;
+  position: relative;
+  top:20px;
 }
 
 .main-logo{
@@ -41,15 +52,17 @@ position: relative;
   }
   
     header nav{
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     display:flex;
     flex-direction: row;
     justify-content:flex-end; 
     align-items: center;
     position: relative;
-    top:-500px ;
-    right: 500px
+    bottom:340px;
+    right:50px;
+   
     }
+
 
     header nav ul {
       list-style: none;
@@ -62,7 +75,7 @@ position: relative;
     }
     
     header nav ul li a {
-    color:rgb(10, 4, 4);
+    color:rgb(21, 255, 0);
     text-decoration: solid;
     }
     
@@ -71,6 +84,26 @@ position: relative;
     text-decoration: underline; 
     
     }
+
+  
+  .bad-bunny{
+  width: 50%;
+  position:relative;
+  left:320px
+  }
+
+  .harry{
+    width: 50%;
+    position:relative;
+    left:300px
+  }
+
+  .verano{
+    width: 100%;
+    position:relative;
+    left:400px;
+
+  }
 
   .sr-only {
     position:fixed;
