@@ -3,17 +3,213 @@
  * CSS FILE
  */
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ header h2{
+display:flex;
+justify-content: space-around;
+align-items: stretch;
+background-color: black;
+color:#11ff00;
+
+
+
+ }
+
+ body {
+  font-family:Verdana, Tahoma, sans-serif;
+  background-color: rgba(157, 255, 0, 0.848);
+  color: #242121;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  
+  min-width: 100%;
+  min-height: 100%;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  text-align: center;
-  color: #023047;
+header img{
+  width:20%;
+  height:20%;
+  position: relative;
+  top:20px;
 }
+
+.main-logo{
+display:flex;
+flex-direction: column;
+justify-content: right;
+align-items:center;
+position: relative;
+}
+
+  h1{
+  color:#11ff00;
+  background-color: black;  
+  }
+
+  header h2{
+  font-size: 3.1rem;
+  margin-left: 2rem; 
+  margin-right: 2rem;
+  }
+  
+    header nav{
+    font-size: 1.5rem;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end; 
+    align-items: center;
+    position: relative;
+    bottom:340px;
+    right:50px;
+   
+    }
+
+
+    header nav ul {
+      list-style: none;
+      margin-left: 10rem;
+      display: flex;
+      }
+    
+    header nav ul li {
+    margin-left: 1rem;   
+    }
+    
+    header nav ul li a {
+    color:rgb(21, 255, 0);
+    text-decoration: solid;
+    }
+    
+    header nav ul li a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline; 
+    
+    }
+
+  
+  .bad-bunny{
+  width: 50%;
+  position:relative;
+  left:320px
+  }
+
+  .harry{
+    width: 50%;
+    position:relative;
+    left:300px
+  }
+
+  .verano{
+    width: 120%;
+    position:relative;
+    left:300px;
+
+  }
+
+  .sr-only {
+    position:fixed;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+  
+  table, th, td {
+    border: 3px solid green;
+    border-collapse: collapse;
+    background-color: black;
+    color:#11ff00
+  }
+  
+  caption{
+  color:rgb(0, 0, 0) 
+  }
+
+  footer{
+  padding:0.01 0rem;
+  font-size: 1.9rem;
+  line-height: 1.3;
+  background-color: rgba(1, 13, 13, 0.935);
+  }
+
+  .socials{
+  color: #11ff00;
+  position: relative;
+  left:300px
+  }
+
+  .closing{
+  max-height: 10%;
+  position: relative;
+  }
+
+  footer h2{
+  font-size: 4rem;
+  color:#11ff00;
+  text-align: center;
+  
+  }
+
+  footer h3{
+  color: #11ff00;
+  font-family:Impact,'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
+  }
+
+  .Follow-Socials{
+  color:#11ff00;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  footer img{
+  padding:6rem;
+  width: 40%;
+  margin-left: 12rem;
+  position: relative;
+  left:250px;
+  }
+
+   footer nav ul {
+      list-style: none;
+      font-size: 2rem;
+      margin: 12rem;
+      position:relative;
+      left:300px;
+
+    }
+    
+    footer nav ul li {
+    margin-left: 6rem;   
+    }
+    
+    footer nav ul li a {
+    color:rgb(2, 255, 2);
+    text-decoration: solid;
+    }
+    
+    footer nav ul li a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline; 
+    }
+    
+    .join-button{
+      display:block;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      color:rgb(0, 0, 0);
+      background-color: rgb(13, 255, 0);
+      border:none;
+      border-radius:5px;
+      cursor:pointer;
+      transition: background-color 0.3s;
+    }
+
+    .join-button:hover{
+     background-color: aliceblue; 
+    }
+
+    
